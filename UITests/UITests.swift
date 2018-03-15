@@ -20,9 +20,9 @@ class UITests: UITestCase {
         app.buttons["Dismiss"].tap()
     }
 
-    func testElementExists() {
-        XCTAssert(app.staticTexts["Volley"].exists)
-    }
+//    func testElementExists() {
+//        XCTAssert(app.staticTexts["Volley"].exists)
+//    }
 
     func testElementExistsWithPredicate() {
         let predicate = NSPredicate(format: "label BEGINSWITH[cd] 'set your team details'")
