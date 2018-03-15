@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build and Unit Test') {
             steps {
-                sh 'fastlane tests'
+                sh '/usr/local/bin/fastlane tests'
             }
         }
         
