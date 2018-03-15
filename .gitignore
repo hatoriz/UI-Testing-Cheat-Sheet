@@ -23,3 +23,9 @@ UserInterfaceState.xcuserstate
 Breakpoints.xcbkptlist
 xcuserdata
 *.xccheckout
+fastlane/report.xml
+fastlane/test_output/report.html
+fastlane/test_output/report.junit
+fastlane/test_output/report.junit
+fastlane/test_output/report.html
+fastlane/report.xml
